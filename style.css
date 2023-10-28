@@ -1,0 +1,243 @@
+* {
+    padding : 0;
+    margin: 0;
+    font-family: 'Roboto', san-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(img/background-left.png);
+    background-position: left;
+    background-color: black ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo{
+    color:white;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+ nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: orange;
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+
+.content h4{
+    font-size: 1.5rem;
+    color: white;
+}
+.content h1{
+    font-size: 3rem;
+
+    color: white;
+}
+.content h3{
+    font-size: 1.75rem;
+    color: white;
+}
+
+.content a{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content a:hover{
+    color: orange;
+    transition: .4s;
+}
+
+.about{
+    height: 100vh;
+    background-color: black;
+
+} 
+
+.about img{
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+
+.desc {
+    position: absolute;
+    color: white;
+    width: 35%;
+    padding-top: 10rem;
+    padding-left: 4rem;
+    text-align: center;
+
+}
+
+.desc h2{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.desc h5{
+    font-size: 1.25rem;
+    word-spacing: .25rem;
+}
+
+.edu{
+    height: 100vh;
+    background-color:  black;
+    color: white;
+}
+.edu h1{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+
+}
+
+.p-right{
+    width: 70%;
+    position: relative;
+    height: 30vh;
+    left: 20%;
+    top : 30%;
+    background-color:#914e53 ;
+}
+
+.p-right img{
+    height: 100%; 
+    position: absolute;
+    right: 0;
+}
+
+.p-right .desc{
+    position: relative;
+    top: -70%;
+    left: 0%;
+}
+
+
+.p-left{
+    width: 50%;
+    position: absolute;
+    height: 30vh;
+    left: 30%;
+    top: 260%;
+    background-color:#fca881 ;
+}
+
+
+.p-left img{
+    height: 100%; 
+    position: absolute;
+    left: 0;
+}
+
+.p-left .desc{
+    position: relative;
+    top: -65%;
+    left: 50%;
+}
+
+.skill{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.skill .main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.skill h1{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 2rem;
+    padding: 3rem 3rem 3rem 3rem;
+    max-width: 25%;
+}
+
+.card i{
+    position: relative;
+    font-size: 5rem;
+    left: 25%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.contact{
+    height: 100vh;
+    background: black;
+    color: white;
+}
+.contact h1{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.contact .main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact .card a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact .card a:hover{
+    color: orange;
+    transition: .4s;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
