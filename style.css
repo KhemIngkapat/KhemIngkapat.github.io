@@ -126,49 +126,67 @@ nav ul li a:hover{
 
 }
 
-.p-right{
+.edu-list{
+    position: relative;
+
     width: 70%;
-    position: relative;
     height: 30vh;
-    left: 20%;
+
+    left: 15%;
     top : 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.red{
     background-color:#914e53 ;
-}
+    }
 
-.p-right img{
-    height: 100%; 
-    position: absolute;
-    right: 0;
-}
-
-.p-right .desc{
-    position: relative;
-    top:  -15%;
-    left: 0%;
-}
-
-
-.p-left{
-    width: 50%;
-    position: absolute;
-    height: 30vh;
-    left: 30%;
-    top: 260%;
+.orange{
     background-color:#fca881 ;
 }
 
-
-.p-left img{
+.edu-list img{
     height: 100%; 
-    position: absolute;
-    left: 0;
 }
 
-.p-left .desc{
-    position: relative;
-    top: -15%;
-    left: 50%;
+.edu-list a{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
 }
+.edu-list a:hover{
+    color: cyan;
+    transition: .4s;
+}
+
+.ldesc{
+    height: 100%;
+    text-align:center;
+    padding-left: 3rem ;
+}
+
+.ldesc h2{
+       font-size: 2.5rem; 
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+
+.rdesc{
+    height: 100%;
+    text-align:center;
+    padding-right: 15rem;
+}
+
+.rdesc h2{
+       font-size: 2.5rem; 
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
 
 .skill{
     height: 100vh;
