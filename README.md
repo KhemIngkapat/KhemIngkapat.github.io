@@ -1,4 +1,4 @@
-# KhemIngkapat.github.io
+# khemingkapat.github.io
 my first portfolio website for `CPE101` Web Development Class
 
 ### PS
